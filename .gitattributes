@@ -1,10 +1,13 @@
-# NADA DE TOCAR LOS FINALES DE LINEA.
-#
 # Esta carpeta es un COMPILADO: lo que se sube tiene que llegar al navegador
 # byte a byte igual que lo genero flet. Git, por su cuenta, cambia los finales
-# de linea de todo lo que le parece texto —aqui eran 34 archivos, entre ellos
-# el service worker y el arranque de Flutter— y eso son bytes distintos a los
-# que se probaron.
+# de linea de todo lo que le parece texto -aqui eran 34 archivos, entre ellos el
+# service worker y el arranque de Flutter- y eso son bytes distintos a los que
+# se probaron.
 #
 # El "-text" apaga esa conversion para todo.
+#
+# LO ESCRIBE EL VOLCADO, no una persona: al volcar se borra la carpeta entera
+# menos el .git, asi que este archivo desaparecia en cada publicacion y habia
+# que acordarse de recuperarlo a mano. Se olvido una vez y git empezo a avisar
+# de que iba a tocar 34 archivos del compilado.
 * -text
